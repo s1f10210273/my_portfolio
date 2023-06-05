@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオサイト</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">ポートフォリオ</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profile">プロフィール</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">プロジェクト</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">スキル</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">経験</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">お問い合わせ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- バナー -->
+    <section id="banner">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>あなたのポートフォリオ</h1>
+                    <p>素晴らしいプロジェクトとスキルを紹介しましょう</p>
+                    <a href="#contact" class="btn btn-primary">お問い合わせ</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="banner-image.jpg" alt="バナー画像" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- プロフィールセクション -->
+    <section id="profile">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>自己紹介</h2>
+                    <p>ここに自己紹介のテキストを入力してください。</p>
+                </div>
+                <div class="col-md-6">
+                    <h2>スキル</h2>
+                    <ul>
+                        <li>スキル1</li>
+                        <li>スキル2</li>
+                        <li>スキル3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- プロジェクトギャラリー -->
+    <section id="projects">
+        <div class="container">
+            <h2>プロジェクト</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="project1.jpg" class="card-img-top" alt="プロジェクト1">
+                        <div class="card-body">
+                            <h5 class="card-title">プロジェクト1</h5>
+                            <p class="card-text">プロジェクトの説明をここに入力してください。</p>
+                            <a href="#" class="btn btn-primary">詳細</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="project2.jpg" class="card-img-top" alt="プロジェクト2">
+                        <div class="card-body">
+                            <h5 class="card-title">プロジェクト2</h5>
+                            <p class="card-text">プロジェクトの説明をここに入力してください。</p>
+                            <a href="#" class="btn btn-primary">詳細</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="project3.jpg" class="card-img-top" alt="プロジェクト3">
+                        <div class="card-body">
+                            <h5 class="card-title">プロジェクト3</h5>
+                            <p class="card-text">プロジェクトの説明をここに入力してください。</p>
+                            <a href="#" class="btn btn-primary">詳細</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- スキルセクション -->
+    <section id="skills">
+        <div class="container">
+            <h2>スキル</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
+                            aria-valuemin="0" aria-valuemax="100">スキル1</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100">スキル2</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100">スキル3</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 経験セクション -->
+    <section id="experience">
+        <div class="container">
+            <h2>経験</h2>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge">2020</div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">会社1</h4>
+                            <p><small class="text-muted">期間</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>職務の詳細をここに入力してください。</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge">2018</div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">会社2</h4>
+                            <p><small class="text-muted">期間</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>職務の詳細をここに入力してください。</p>
+                        </div>
+                    </div>
+                </li>
+                <!-- 他の経験の項目を追加 -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- お問い合わせフォーム -->
+    <section id="contact">
+        <div class="container">
+            <h2>お問い合わせ</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">お名前</label>
+                    <input type="text" class="form-control" id="name" placeholder="お名前を入力してください">
+                </div>
+                <div class="form-group">
+                    <label for="email">メールアドレス</label>
+                    <input type="email" class="form-control" id="email" placeholder="メールアドレスを入力してください">
+                </div>
+                <div class="form-group">
+                    <label for="message">メッセージ</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="お問い合わせ内容を入力してください"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">送信</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2023 ポートフォリオ. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

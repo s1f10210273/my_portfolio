@@ -1,0 +1,192 @@
+/* ここにカスタムCSSスタイルを追加してください */
+
+body {
+    padding-top: 70px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+#banner {
+    background-color: #000;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#banner h1 {
+    font-size: 3rem;
+}
+
+#banner p {
+    font-size: 1.2rem;
+}
+
+#profile {
+    padding: 100px 0;
+}
+
+#profile h2 {
+    margin-bottom: 30px;
+}
+
+#projects {
+    padding: 100px 0;
+}
+
+#projects h2 {
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+#skills {
+    background-color: #f8f8f8;
+    padding: 100px 0;
+}
+
+#skills h2 {
+    margin-bottom: 30px;
+}
+
+.progress {
+    margin-bottom: 20px;
+}
+
+.timeline {
+    list-style-type: none;
+    padding: 0;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #999;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.timeline li {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 50px;
+}
+
+.timeline li:before,
+.timeline li:after {
+    content: '';
+    display: table;
+}
+
+.timeline li:after {
+    clear: both;
+}
+
+.timeline li .timeline-badge {
+    width: 50px;
+    height: 50px;
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: #999;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -25px;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+.timeline li .timeline-panel {
+    width: calc(50% - 70px);
+    float: left;
+    padding: 0 20px;
+    position: relative;
+    text-align: right;
+}
+
+.timeline li .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-right-width: 15px;
+    border-left-width: 0;
+}
+
+.timeline li .timeline-panel:after {
+    right: auto;
+    left: -14px;
+    border-right-width: 14px;
+    border-left-width: 0;
+}
+
+.timeline li .timeline-panel .timeline-heading h4 {
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline li .timeline-panel .timeline-heading p {
+    margin-bottom: 0;
+    color: inherit;
+}
+
+.timeline li.timeline-inverted .timeline-panel {
+    float: right;
+    text-align: left;
+}
+
+.timeline li.timeline-inverted .timeline-panel:before {
+    right: -15px;
+    left: auto;
+    border-right-width: 0;
+    border-left-width: 15px;
+}
+
+.timeline li.timeline-inverted .timeline-panel:after {
+    right: -14px;
+    left: auto;
+    border-right-width: 0;
+    border-left-width: 14px;
+}
+
+#contact {
+    padding: 100px 0;
+}
+
+#contact h2 {
+    margin-bottom: 30px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons a {
+    color: #333;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+    .navbar-expand-lg .navbar-collapse {
+        background-color: #f8f8f8;
+    }
+}

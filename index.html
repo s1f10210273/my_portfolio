@@ -8,28 +8,41 @@
     <title>押久保秀英</title>
     <style>
         /* 追加のスタイル */
+        body {
+            background-image: url('img/head.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100vh;
+        }
+
+        .navbar {
+            opacity: 0.9;
+        }
+
         .hero-section {
-            background-color: #f8f9fa;
             padding: 350px 0;
             text-align: center;
+            color: #fff;
         }
 
         .features-section {
             background-color: #ffffff;
-            padding: 200px 0;
+            padding: 120px 0;
             text-align: center;
         }
 
         .works-section {
             background-color: #f8f9fa;
-            padding: 200px 0;
+            padding: 120px 0;
             text-align: center;
         }
 
         .contact-section {
             background-color: #ffffff;
-            padding: 100px 0;
+            padding: 50px 0;
             text-align: center;
+            opacity: 0.9;
         }
     </style>
 </head>
@@ -46,7 +59,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#features-section">About</a>
+                        <a class="nav-link" href="#features-section">About Me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#works-section">Portfolio</a>
@@ -69,11 +82,12 @@
 
     <!-- 特徴セクション -->
     <section class="features-section" id="features-section">
+        <h1 class="text-center mb-5">About Me</h1>
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
                     <i class="bi bi-laptop"></i>
-                    <h3>出身・経歴</h3>
+                    <h2 class="mb-5">出身・経歴</h2>
                     <ul class="list-unstyled">
                         <li><strong>出身：</strong>東京都江戸川区</li>
                         <li><strong>生年月日：</strong>2002年8月11日</li>
@@ -98,72 +112,75 @@
 
                 <div class="col-lg-4">
                     <i class="bi bi-palette"></i>
-                    <h3>趣味</h3>
+                    <h2 class="mb-5">趣味</h2>
                     <ul class="list-unstyled">
-                      <li><strong>音楽</strong></li>
-                      <p class="hobby-description">サークルやバンドで定期的にライブをしています。</p>
-                      <li><strong>合気道</strong></li>
-                      <p class="hobby-description">大学1年次に初段を取得しました。</p>
+                        <li><strong>音楽</strong></li>
+                        <p class="hobby-description">サークルやバンドで定期的にライブをしています。メインはギターですが、ベースやドラムもできます。</p>
+                        <li><strong>合気道</strong></li>
+                        <p class="hobby-description">毎週日曜日に道場に行き練習をしています。大学1年次に初段を取得しました。</p>
                     </ul>
-                  </div>
-                  
-                  
+                </div>
+
+
                 <div class="col-lg-4">
                     <i class="bi bi-speedometer2"></i>
-                    <h3>学生時代に力を入れたこと</h3>
-                    <p></p>
+                    <h2 class="mb-5">Skils</h2>
+                    <ul class="list-unstyled">
+                        <li>
+                            <strong>言語</strong>
+                        </li>
+                        <li>python, css, html, javascript, ocaml, c</li>
+                        <li>
+                            <strong>フレームワーク</strong>
+                        </li>
+                        <li>Django, Bootstrap, Unity</li>
+                        <li>
+                            <strong>資格</strong>
+                        </li>
+                        <li>普通自動車第一種運転免許</li>
+                    </ul>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- 作品セクション -->
-    <section class="works-section" id="works-section">
-        <div class="container">
-            <h2>Featured Works</h2>
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
-                        <img src="image1.jpg" class="card-img-top" alt="Work 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
-                            <p class="card-text">A brief description of your project.</p>
-                            <a href="#" class="btn btn-primary">View Details</a>
-                        </div>
+<!-- 作品セクション -->
+<section class="works-section" id="works-section">
+    <div class="container">
+        <h1 class="text-center mb-5">Portfolio</h1>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 text-center">
+                <div class="card">
+                    <img src="img/spotify.png" class="card-img-top" alt="Work 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Spotes</h5>
+                        <p class="card-text">SpotifyAPIを使って、ユーザーのお気に入りの曲を表示し、プレイリストの作成を行えるwebアプリです</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
-                        <img src="image2.jpg" class="card-img-top" alt="Work 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 2</h5>
-                            <p class="card-text">A brief description of your project.</p>
-                            <a href="#" class="btn btn-primary">View Details</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card">
-                        <img src="image3.jpg" class="card-img-top" alt="Work 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 3</h5>
-                            <p class="card-text">A brief description of your project.</p>
-                            <a href="#" class="btn btn-primary">View Details</a>
-                        </div>
+            </div>
+            <div class="col-md-6 col-lg-4 text-center">
+                <div class="card">
+                    <img src="img/opd.png" class="card-img-top" alt="Work 2">
+                    <div class="card-body">
+                        <h5 class="card-title">東京公共交通オープンデータチャレンジ</h5>
+                        <p class="card-text">東京の公共交通の情報を5分おきに取得しツイートするbotと、より詳細な情報を公開するwebアプリを開発しました。</p>
+                        <a href="https://tokyochallenge.odpt.org/2021/award/06.html#iniad3" class="btn btn-primary">View Details</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
     <section class="contact-section" id="contact-section">
         <div class="container">
-          <h1 class="mb-5">メールを開きます</h1>
-          <a href="mailto:oshikuboshuei@icloud.com" class="btn btn-outline-primary">開く</a>
+            <h1 class="mb-5">Contact</h1>
+            <a href="mailto:oshikuboshuei@icloud.com" class="btn btn-outline-primary">メールを送る</a>
         </div>
-      </section>
-      
-
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

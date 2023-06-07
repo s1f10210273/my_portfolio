@@ -16,6 +16,13 @@
             height: 100vh;
         }
 
+        @media (max-width: 767px) {
+            body {
+                background-color: rgba(0, 0, 0, 0.7);
+                background-image: none;
+            }
+        }
+
         .navbar {
             opacity: 0.9;
         }
@@ -84,8 +91,8 @@
     <section class="features-section" id="features-section">
         <h1 class="text-center mb-5">About Me</h1>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 m-5">
                     <i class="bi bi-laptop"></i>
                     <h2 class="mb-5">出身・経歴</h2>
                     <ul class="list-unstyled">
@@ -110,7 +117,7 @@
                     </table>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-3 m-5">
                     <i class="bi bi-palette"></i>
                     <h2 class="mb-5">趣味</h2>
                     <ul class="list-unstyled">
@@ -122,7 +129,7 @@
                 </div>
 
 
-                <div class="col-lg-4">
+                <div class="col-lg-3 m-5">
                     <i class="bi bi-speedometer2"></i>
                     <h2 class="mb-5">Skils</h2>
                     <ul class="list-unstyled">
@@ -145,34 +152,35 @@
         </div>
     </section>
 
-<!-- 作品セクション -->
-<section class="works-section" id="works-section">
-    <div class="container">
-        <h1 class="text-center mb-5">Portfolio</h1>
-        <div class="row">
-            <div class="col-md-6 col-lg-4 text-center">
-                <div class="card">
-                    <img src="img/spotify.png" class="card-img-top" alt="Work 1">
-                    <div class="card-body">
-                        <h5 class="card-title">Spotes</h5>
-                        <p class="card-text">SpotifyAPIを使って、ユーザーのお気に入りの曲を表示し、プレイリストの作成を行えるwebアプリです</p>
-                        <a href="spotes.html" class="btn btn-primary">View Details</a>
+    <!-- 作品セクション -->
+    <section class="works-section" id="works-section">
+        <div class="container">
+            <h1 class="text-center mb-5">Portfolio</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 text-center m-5">
+                    <div class="card">
+                        <img src="img/spotify.png" class="card-img-top" alt="Work 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Spotes</h5>
+                            <p class="card-text">SpotifyAPIを使って、ユーザーのお気に入りの曲を表示し、プレイリストの作成を行えるwebアプリです</p>
+                            <a href="spotes.html" class="btn btn-primary">View Details</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 col-lg-4 text-center">
-                <div class="card">
-                    <img src="img/opd.png" class="card-img-top" alt="Work 2">
-                    <div class="card-body">
-                        <h5 class="card-title">東京公共交通オープンデータチャレンジ</h5>
-                        <p class="card-text">東京の公共交通の情報を5分おきに取得しツイートするbotと、より詳細な情報を公開するwebアプリを開発しました。</p>
-                        <a href="https://tokyochallenge.odpt.org/2021/award/06.html#iniad3" class="btn btn-primary">View Details</a>
+                <div class="col-md-6 col-lg-4 text-center m-5">
+                    <div class="card">
+                        <img src="img/opd.png" class="card-img-top" alt="Work 2">
+                        <div class="card-body">
+                            <h5 class="card-title">東京公共交通オープンデータチャレンジ</h5>
+                            <p class="card-text">東京の公共交通の情報を5分おきに取得しツイートするbotと、より詳細な情報を公開するwebアプリを開発しました。</p>
+                            <a href="https://tokyochallenge.odpt.org/2021/award/06.html#iniad3"
+                                class="btn btn-primary">View Details</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
 
     <section class="contact-section" id="contact-section">

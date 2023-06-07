@@ -7,14 +7,21 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <title>押久保秀英</title>
     <style>
-        /* 追加のスタイル */
         body {
-            background-image: url('img/head.jpg');
+            background-image: url('img/head.png');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
             height: 100vh;
         }
+
+        @media (max-width: 767px) {
+            body {
+                background-color: rgba(0, 0, 0, 0.7);
+                background-image: none;
+            }
+        }
+
 
         .navbar {
             opacity: 0.9;
@@ -23,7 +30,7 @@
         .section {
             background-color: #ffffff;
             padding-top: 100px;
-            padding-bottom: 700px;
+            padding-bottom: 300px;
             text-align: center;
             opacity: 0.9;
         }
@@ -58,12 +65,22 @@
 
     <!-- 特徴セクション -->
     <section class="section" id="section">
-        <h1 class="mb-2">Spotesについて</h1>
-        <a href="https://spoti-quct.onrender.com/spotes" class="btn btn-primary mb-5" target="_blank">Spotes</a>
-
+        <h1 class="mb-3">Spotesについて</h1>
+        <a href="https://spoti-quct.onrender.com/spotes" class="btn btn-primary mb-2" target="_blank">Spotes</a>
+        <p class="text-muted mb-5">renderにデプロイしているため、最初の表示に時間がかかります<br>また、ログインにはSpotifyのアカウントが必要です</p>
+        <hr class="m-5">
         <h1 class="mb-2">はじめに</h1>
-        <p>Spotifyは年末になると、その年によく聞いた曲のプレイリストを作成してくれます。<br>
+        <p class="p-2">Spotifyは年末になると、その年によく聞いた曲のプレイリストを作成してくれます。<br>
             僕は、年中色々な音楽を聴いているので、その時々によく聞く曲のプレイリストを作りたいなと思いこのWEBアプリを開発しました。</p>
+        <hr class="m-5">
+        <h1 class="mb-2">実装</h1>
+        <p class="p-2">アプリは下記のフローチャートのように実装しました</p>
+        <img src="img/flo.png" class="img-fluid mb-5" alt="フローチャート" style="width: 900px;">
+        <hr class="m-5">
+        <h1 class="mb-2">使用動画</h1>
+        <p class="p-2">アプリは下記のフローチャートのように実装しました</p>
+        <img src="img/spotes.gif" class="img-fluid mb-5" alt="使用動画" style="width: 900px;">
+        <hr class="m-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-4">
